@@ -8,14 +8,6 @@ POSDAO is a Proof-of-Stake (POS) algorithm implemented as a decentralized autono
 
 The algorithm provides a Sybil control mechanism for reporting malicious validators and adjusting their stake, distributing a block reward, and managing a set of validators. The authors implement the POSDAO for a sidechain based on Ethereum 1.0 protocol.
 
-## POSDAO Repositories and Resources
-
-- White paper: https://forum.poa.network/t/posdao-white-paper/2208
-- OpenEthereum client supporting POSDAO features: https://github.com/openethereum/openethereum (>= v3.2.5)
-- Nethermind client supporting POSDAO features: https://github.com/NethermindEth/nethermind
-- Integration tests setup for a POSDAO network: https://github.com/poanetwork/posdao-test-setup
-- Discussion forum: https://forum.poa.network/c/posdao
-
 ## Smart Contract Summaries
 
 _Note: The following descriptions are for AuRa contracts only. HBBFT contract implementations are not started yet and are not listed nor described here. All contracts are located in the `contracts` directory._
@@ -125,8 +117,6 @@ $ npm install
 
 _Note: Test development for unit testing and integration testing is in progress._
 
-Integration test setup is available here: https://github.com/poanetwork/posdao-test-setup
-
 To run unit tests:
 
 ```bash
@@ -144,20 +134,3 @@ $ npm run flat
 ```
 
 Once flattened, the contracts are available in the `flat` directory.
-
-## Security Audit
-
-- [Code Assessment of the POSDAO Smart Contracts](https://github.com/poanetwork/posdao-contracts/blob/master/audit/ChainSecurity/report.pdf) by ChainSecurity
-
-## Contributing
-
-See the [CONTRIBUTING](CONTRIBUTING.md) document for contribution, testing and pull request protocol.
-
-## License
-
-Licensed under either of:
-
--   Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
--   MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
-
-at your option.
